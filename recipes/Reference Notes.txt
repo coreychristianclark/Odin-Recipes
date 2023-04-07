@@ -7,6 +7,6 @@ Notes:
 3. Remove the recipe text at the top of the page, and provide a covert way of navigating.
 4. Find a subtle way to give credit to the actual recipe page.
 5. Maybe create windowed partitions so the ingredients and instructions can be next to each other.
-6. Make images on home page bigger.
+6. 
 
 }
