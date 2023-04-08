@@ -69,12 +69,11 @@ h1 {
 
 .flex-item.salmon:hover .toolTip2 {
     background-color: rgb(0, 0, 0);
-    transition-delay: 1s ease;
     opacity: 70%;
     z-index: 5;
-    height: 7.55em;
+    height: 5.58em;
     width: 10em;
-    padding-top: 50px;
+    padding-top: 130px;
     border-radius: 5%;
     top: 32.6%;
     display: block;
@@ -85,7 +84,6 @@ h1 {
 .toolTip2 {
     display: none;
     color: white;
-    font-style: bold;
     text-align: center;
     font-size: 40.2px;
     font-family: constantia;
