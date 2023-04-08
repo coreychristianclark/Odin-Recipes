@@ -38,7 +38,6 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    padding-bottom: 5em;
 }
 
 .flex-item img {
@@ -47,7 +46,7 @@ h1 {
     border: 1px black solid;
     border-radius: 5%;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .flex-item.steak:hover {
@@ -67,7 +66,7 @@ h1 {
     display: none;
 }
 
-.flex-item.salmon:hover {
+.flex-item.salmon:hover .toolTip2 {
     background-color: rgb(0, 0, 0);
     transition-delay: 0.2s ease;
     opacity: 60%;
@@ -75,13 +74,17 @@ h1 {
     border-radius: 5%;
     height: 22em;
     width: 25em;
+    top: 0;
     display: block;
-    position: relative;
+    position: absolute;
     cursor: pointer;
 }
 
 .toolTip2 {
     display: none;
+    color: white;
+    text-align: center;
+    font-size: 1em;
 }
 
 .flex-item.elk:hover {
