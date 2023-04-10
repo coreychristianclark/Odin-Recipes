@@ -124,3 +124,10 @@ h1 {
     z-index: 0;
     position: relative;
 }
+
+.backToTop {
+    position: absolute;
+    left: 50;
+    right: 50;
+    margin-bottom: 1em;
+}
