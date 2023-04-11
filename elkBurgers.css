@@ -4,12 +4,10 @@ body {
 }
 
 body {
-    background-image: url(https://cookingfrog.com/wp-content/uploads/2020/05/Elk-Burger-Easy-Recipe.png.webp");
+    background-image: url(https://cookingfrog.com/wp-content/uploads/2020/05/Elk-Burger-Easy-Recipe.png.webp);
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+h1 {
+    text-align: center;
+    font-size: 200px;
 }
