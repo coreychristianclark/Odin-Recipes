@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/delish-202210-creamycajunstuffedsalmon-022-1666809056.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=980:*");
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://cookingfrog.com/wp-content/uploads/2020/05/Elk-Burger-Easy-Recipe.png.webp");
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
