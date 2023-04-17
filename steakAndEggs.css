@@ -5,8 +5,8 @@ body {
 
 body {
     background-image: url(https://images.unsplash.com/photo-1508615070457-7baeba4003ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-    margin-left: 2em;
-
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 h1 {
@@ -18,11 +18,15 @@ h1 {
 .flex-container {
     display: flex;
     height: 100vh;
-
 }
 
 
-.steakPicture {
+.flex-item.steakPicture {
     height: 15em;
     width: 20em;
+}
+
+.ingredientsAndSteak{
+    border: 1px solid black;
+    border-radius: 5%;
 }
