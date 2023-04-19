@@ -29,13 +29,14 @@ h2 {
     border: 3px solid black;
     border-radius: 1.5%;
     font-size: 30px;
+    margin-bottom: 0.03em;
 }
 
 .steakPicture {
     height: 15em;
-    width: 10em;
-    border-radius: 1.5%;
-    flex-basis: 40%;
+    width: 1em;
+    border-radius: 1%;
+    flex-basis: 44%;
 }
 
 .ingredients {
@@ -45,6 +46,11 @@ h2 {
 .directionsWhole {
     border: 3px solid black;
     border-radius: 1.5%;
-    width: 51em;
+    padding-right: 1em;
+    width: 50em;
     font-size: 20px;
+}
+.subDirections {
+    font-style: italic;
+    padding-bottom: 0.3em;
 }
