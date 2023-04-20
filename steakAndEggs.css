@@ -49,16 +49,24 @@ h2 {
     padding-right: 1em;
     width: 50em;
     font-size: 20px;
-    margin-bottom: -1.65em;
+    margin-bottom: -1.75em;
 }
 
 .subDirections {
+    font-size: 22px;
     font-style: italic;
     padding-bottom: 0.3em;
 }
 
 .myThoughts {
-    border: 3px solid rgb(224, 191, 5);
+    border: 3px solid rgb(30, 232, 15);
     border-radius: 1.5%;
-    width: 63.8em;
+    width: 50.5em;
+    padding-left: 0.5em;
+    font-size: 20px;
+}
+
+.myThoughtsText {
+    font-style: italic;
+    font-size: 22px;
 }
