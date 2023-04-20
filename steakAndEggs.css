@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1508615070457-7baeba4003ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-image: url(https://images.unsplash.com/photo-1606818616331-32cf3239c93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
     margin-left: 7em;
     margin-right: 7em;
 }
@@ -62,11 +62,20 @@ h2 {
     border: 3px solid rgb(30, 232, 15);
     border-radius: 1.5%;
     width: 50.5em;
+    height: 4.8em;
     padding-left: 0.5em;
+    padding-top: 0.3em;
     font-size: 20px;
 }
 
 .myThoughtsText {
     font-style: italic;
     font-size: 22px;
+}
+
+.backToTop {
+    position: absolute;
+    left: 50%;
+    margin-top: 5em;
+    margin-bottom: 1em; /*********************
 }
