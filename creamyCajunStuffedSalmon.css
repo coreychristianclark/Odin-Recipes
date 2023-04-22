@@ -4,12 +4,78 @@ body {
 }
 
 body {
-    background-image: url("https://hips.hearstapps.com/hmg-prod/images/delish-202210-creamycajunstuffedsalmon-022-1666809056.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=980:*");
+    background-image: url(https://images.unsplash.com/photo-1606818616331-32cf3239c93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    margin-left: 7em;
+    margin-right: 7em;
 }
 
-.image-container {
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-left: 0.5em;
+}
+
+.flexbox-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 15em;
+    width: 34em;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 1.5%;
+    font-size: 30px;
+    margin-bottom: 0.03em;
+}
+
+.steakPicture {
+    height: 15em;
+    width: 1em;
+    border-radius: 1%;
+    flex-basis: 44%;
+}
+
+.ingredients {
+    height: 17em;
+}
+
+.directionsWhole {
+    border: 3px solid black;
+    border-radius: 1.5%;
+    padding-right: 1em;
+    width: 50em;
+    font-size: 20px;
+    margin-bottom: -1.75em;
+}
+
+.subDirections {
+    font-size: 22px;
+    font-style: italic;
+    padding-bottom: 0.3em;
+}
+
+.myThoughts {
+    border: 3px solid rgb(30, 232, 15);
+    border-radius: 1.5%;
+    width: 50.5em;
+    height: 4.8em;
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    font-size: 20px;
+}
+
+.myThoughtsText {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.backToTop {
+    position: relative;
+    left: 50%;
+    margin-top: 5em;
+    margin-bottom: 1em;
 }
