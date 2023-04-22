@@ -71,6 +71,7 @@ h2 {
     padding-left: 0.5em;
     padding-top: 0.3em;
     font-size: 20px;
+    text-align: center;
 }
 
 .myThoughtsText {
@@ -80,7 +81,6 @@ h2 {
 
 .backToTop {
     position: relative;
-    left: 50%;
     margin-top: 2em;
     margin-bottom: 1em;
 }
