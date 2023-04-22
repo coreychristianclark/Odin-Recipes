@@ -74,8 +74,8 @@ h2 {
 }
 
 .backToTop {
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-top: 5em;
-    margin-bottom: 1em; /*********************
+    margin-bottom: 1em;
 }
