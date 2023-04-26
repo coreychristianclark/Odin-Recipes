@@ -4,7 +4,10 @@ body {
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1614853035986-b230d7d5679c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     margin-left: 7em;
     margin-right: 7em;
 }
@@ -85,4 +88,18 @@ h2 {
     position: relative;
     margin-top: 2em;
     margin-bottom: 1em;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    background: #000;
+}
+
+.navContainer a {
+    color: #fff;
+    font-size: 25px;
 }
