@@ -13,6 +13,20 @@ body {
     background-position: center center;
 }
 
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    background: #000;
+}
+
+.navContainer a {
+    color: #fff;
+    font-size: 25px;
+}
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -30,8 +44,8 @@ body {
     margin: 2em 2em;
     font-size: 50px;
     text-align: center;
-    margin-bottom: -2em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5em;
 }
 
 h1 {
@@ -51,25 +65,23 @@ h1 {
 }
 
 .flex-item img {
-    height: 22em;
-    width: 25em;
+    height: 20em;
+    width: 23em;
     border: 1px black solid;
     border-radius: 5%;
     position: relative;
     z-index: 5;
-    margin-top: 10.5em;
-    margin-bottom: 5em;
 }
 
 .flex-item.steak:hover .toolTip1 {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
-    height: 5.58em;
-    width: 10em;
+    height: 4.76em;
+    width: 9.2em;
     padding-top: 130px;
     border-radius: 5%;
-    top: 32.6%;
+    top: 0;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -90,11 +102,11 @@ h1 {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
-    height: 5.55em;
-    width: 10em;
+    height: 4.75em;
+    width: 9.19em;
     padding-top: 130px;
     border-radius: 5%;
-    top: 32.6%;
+    top: 0;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -115,11 +127,11 @@ h1 {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
-    height: 5.09em;
-    width: 10em;
-    padding-top: 150px;
+    height: 4.77em;
+    width: 9.2em;
+    padding-top: 130px;
     border-radius: 5%;
-    top: 32.6%;
+    top: 0%;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -140,19 +152,5 @@ h1 {
     position: absolute;
     left: 50;
     right: 50;
-    margin-bottom: 1em;
-}
-
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    justify-content: space-around;
-    background: #000;
-}
-
-.navContainer a {
-    color: #fff;
-    font-size: 25px;
+    margin-bottom: 20em;
 }
