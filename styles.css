@@ -149,8 +149,10 @@ h1 {
 }
 
 .backToTop {
-    position: absolute;
-    left: 50;
-    right: 50;
-    margin-top: 10em;
+    position: relative;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    z-index: 500;
+    left: 46.5%;
+    right: 46.5%;
 }
