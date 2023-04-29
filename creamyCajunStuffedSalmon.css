@@ -11,6 +11,20 @@ body {
     margin-right: 7em;
 }
 
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    background: #000;
+}
+
+.navContainer a {
+    color: #fff;
+    font-size: 25px;
+}
+
 h1 {
     text-align: center;
     font-size: 100px;
@@ -87,18 +101,4 @@ h2 {
     position: relative;
     margin-top: 2em;
     margin-bottom: 1em;
-}
-
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    justify-content: space-around;
-    background: #000;
-}
-
-.navContainer a {
-    color: #fff;
-    font-size: 25px;
 }
