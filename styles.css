@@ -1,9 +1,16 @@
-html, body {
-    height: 100%;
+html {
+    min-height: 100%;
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background: url(https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+    margin-left: 7em;
+    margin-right: 7em;
+    background-position: center center;
 }
 
 .image-container {
@@ -50,6 +57,7 @@ h1 {
     border-radius: 5%;
     position: relative;
     z-index: 5;
+    margin-top: 10em;
     margin-bottom: 5em;
 }
 
