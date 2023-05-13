@@ -1,5 +1,5 @@
 # Odin-Recipes
-First Odin Project assignment
+First Odin Project Assignment
 
 Welcome to my site!
 
