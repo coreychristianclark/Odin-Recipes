@@ -17,6 +17,8 @@ body {
     height: auto;
     width: 100%;
     justify-content: space-around;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
     background: #000;
 }
 
