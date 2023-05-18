@@ -11,13 +11,13 @@
 
 <body>
 
-    <link href="navBar.shtml" rel="import" />
+    <link rel="import" href="/files/navBar.shtml" />
 
 
     <h1>Odin Recipes</h1>
 
     <div class="image-container">
-    <img class="bg1" src="files/images/index-image.jpg" alt="Image of food being prepped.">
+    <img class="bg1" src="/files/images/index-image.jpg" alt="Image of food being prepped.">
     </div>
 
     <p class="introP"> 
