@@ -13,22 +13,6 @@ body {
     background-position: center center;
 }
 
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    justify-content: space-around;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    background: #000;
-}
-
-.navContainer a {
-    color: #fff;
-    font-size: 25px;
-}
-
 .image-container {
     display: flex;
     justify-content: center;
