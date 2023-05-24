@@ -11,6 +11,7 @@ body {
     margin-left: 7em;
     margin-right: 7em;
     background-position: center center;
+    font-family: sans-serif
 }
 
 h1 {
@@ -44,9 +45,10 @@ h2 {
 }
 
 .ingredients {
-    height: 15em;
+    font-size: 29.2px;
+    height: 15.41em;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 1.5%;
+    border-radius: 1.5% 0 0 1.5%;
 }
 
 .directionsWhole {
