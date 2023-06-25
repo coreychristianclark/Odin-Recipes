@@ -1,7 +1,8 @@
-  let nav = document.querySelector(".navContainer");
+const navContainer = document.querySelector("#navContainer");
+// const navBar = document.querySelector("navBar.html")
 
-fetch("navBar.html")
-    .then((response) => response.text())
-        .then((data) => {
-            nav.innerHTML = data;
-        })
+fetch(navContainer)
+  .then((response) => response.text())
+  .then((data) => {
+    navContainer.innerHTML = data
+  });
