@@ -11,10 +11,10 @@ body {
     margin-left: 4em;
     margin-right: 4em;
     background-position: center center;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
-.image-container {
+.homeImageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ h1 {
     justify-content: space-around;
 }
 
-.flex-item.steak:hover .toolTip1 {
+.flex-item.steak:hover .toolTipSteak {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
@@ -75,7 +75,7 @@ h1 {
     pointer-events: none;
 }
 
-.toolTip1 {
+.toolTipSteak {
     display: none;
     color: white;
     text-align: center;
@@ -85,7 +85,7 @@ h1 {
     position: relative;
 }
 
-.flex-item.salmon:hover .toolTip2 {
+.flex-item.salmon:hover .toolTipSalmon {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
@@ -100,7 +100,7 @@ h1 {
     pointer-events: none; 
 }
 
-.toolTip2 {
+.toolTipSalmon {
     display: none;
     color: white;
     text-align: center;
@@ -110,7 +110,7 @@ h1 {
     position: relative;
 }
 
-.flex-item.elk:hover .toolTip3 {
+.flex-item.elk:hover .toolTipElk {
     background-color: rgb(0, 0, 0);
     opacity: 65%;
     z-index: 5;
@@ -125,7 +125,7 @@ h1 {
     pointer-events: none;
 }
 
-.toolTip3 {
+.toolTipElk {
     display: none;
     color: white;
     text-align: center;
