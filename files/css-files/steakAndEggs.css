@@ -40,7 +40,7 @@ h2 {
 .steakPicture {
     height: 15em;
     width: 1em;
-    border-radius: 1%;
+    border-radius: 0, 1%, 1%, 0;
     flex-basis: 44%;
 }
 

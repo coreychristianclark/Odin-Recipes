@@ -37,7 +37,7 @@ h2 {
 .salmonPicture {
     height: 15.5em;
     width: 1em;
-    border-radius: 1%;
+    border-radius: 0, 1%, 1%, 0;
     flex-basis: 47%;
 }
 
@@ -48,7 +48,7 @@ h2 {
     padding-right: 2px;
     flex-basis: 70%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 1.5%;
+    border-radius: 1.5% 0 0 1.5%;
 }
 
 .directionsWhole {
