@@ -1,5 +1,5 @@
 body {
-    background: url('/files/images/odin-recipes-background.jpg') fixed;
+    background: url("../images/odin-recipes-background.jpg") fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
