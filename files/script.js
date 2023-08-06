@@ -1,4 +1,4 @@
-const URL = "/files/html-files/navBar.html";
+const URL = "files/html-files/navBar.html";
 
 async function loadNavbarContent() {
   try {
