@@ -9,6 +9,23 @@ body {
     font-family: sans-serif;
 }
 
+#navContainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background: #272727;
+}
+
+#navContainer a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 .homeImageContainer {
     display: flex;
     justify-content: center;
