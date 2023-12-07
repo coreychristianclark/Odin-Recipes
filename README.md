@@ -1,4 +1,4 @@
-# odin-recipes
+# Odin Recipes Desktop
 First Odin Project assignment
 
 
