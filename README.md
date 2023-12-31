@@ -10,5 +10,11 @@ The goal of this project was to pick 3 recipes of your choosing and create a web
 
 I've included the original source for each recipe at the bottom of each HTML file.
 
-Thank you for reading, and if you come across any bugs/errors, please contact me at:
-coreychristianclark@gmail.com
+For any questions, suggestions, or to report errors, please [contact me!](mailto:coreychristianclark@gmail.com)
+
+![Homepage Preview](https://github.com/coreychristianclark/odin-recipes-desktop/assets/127354494/e906f74e-0238-4d1c-8942-d6657c710a48)
+![Steak Preview](https://github.com/coreychristianclark/odin-recipes-desktop/assets/127354494/f45c043d-fd0a-4443-be49-f20d42ca0997)
+![Salmon Preview](https://github.com/coreychristianclark/odin-recipes-desktop/assets/127354494/771abbfb-029d-4870-bcbe-897e2b3a2e05)
+![Elk Preview](https://github.com/coreychristianclark/odin-recipes-desktop/assets/127354494/6aa70c94-19f5-4419-8153-1a98063bd9dc)
+
+
