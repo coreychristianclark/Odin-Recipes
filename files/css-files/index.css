@@ -3,18 +3,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 7em;
+    margin-right: 7em;
     background-position: center center;
-    font-family: sans-serif;
 }
 
 #navContainer {
     display: flex;
     flex-direction: row;
-    height: auto;
-    width: auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    max-width: 65em;
+    margin: auto;
+    gap: 7em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     background: #272727;

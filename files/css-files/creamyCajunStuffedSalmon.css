@@ -2,17 +2,20 @@ body {
     background: url('../images/odin-recipes-background.jpg') fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: auto;
     margin-left: 7em;
     margin-right: 7em;
+
 }
 
 #navContainer {
     display: flex;
     flex-direction: row;
-    height: auto;
-    width: auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    max-width: 65em;
+    margin: auto;
+    gap: 7em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     background: #272727;
@@ -46,6 +49,7 @@ h2 {
     font-size: 30px;
     margin-bottom: 0.03em;
     margin: auto;
+    
 }
 
 .salmonPicture {

@@ -3,19 +3,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    min-height: 100vh;
     margin-left: 7em;
     margin-right: 7em;
     background-position: center center;
-    font-family: sans-serif;
 }
 
 #navContainer {
     display: flex;
     flex-direction: row;
-    height: auto;
-    width: auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    max-width: 65em;
+    margin: auto;
+    gap: 7em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     background: #272727;
@@ -42,13 +42,13 @@ h2 {
     display: flex;
     height: 15em;
     width: 34em;
-    margin: auto;
     flex-direction: row;
     justify-content: space-around;
     border: 3px solid black;
     border-radius: 1.5%;
     font-size: 30px;
     margin-bottom: 0.03em;
+    margin: auto;
 }
 
 .steakPicture {
