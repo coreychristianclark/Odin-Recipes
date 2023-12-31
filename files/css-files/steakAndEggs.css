@@ -42,6 +42,7 @@ h2 {
     display: flex;
     height: 15em;
     width: 34em;
+    margin: auto;
     flex-direction: row;
     justify-content: space-around;
     border: 3px solid black;
@@ -72,6 +73,7 @@ h2 {
     width: 50em;
     font-size: 20px;
     margin-bottom: -1.75em;
+    margin: auto;
 }
 
 .subDirections {
@@ -89,6 +91,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
 }
 
 .myThoughtsText {

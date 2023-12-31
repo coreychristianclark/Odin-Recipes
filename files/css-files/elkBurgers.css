@@ -45,6 +45,7 @@ h2 {
     border-radius: 1.5%;
     font-size: 30px;
     margin-bottom: 0.03em;
+    margin: auto;
 }
 
 .elkPicture {
@@ -73,6 +74,7 @@ h2 {
     width: 39.9em;
     font-size: 25px;
     margin-bottom: -1.35em;
+    margin: auto;
 }
 
 .subDirections {
@@ -90,6 +92,7 @@ h2 {
     padding-top: 0.3em;
     font-size: 20px;
     text-align: center;
+    margin: auto;
 }
 
 .myThoughtsText {
